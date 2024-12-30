@@ -1,17 +1,34 @@
 <html>
 	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
-		  h1 {color:rgb(232, 110, 39);
-			font-size: 20px;
-			font-weight: bold;
+			/* Ensure the canvas is positioned absolutely and covers the entire window */
+			body, html {
+				margin: 30px;
+				padding-top: 30px;
+				overflow: hidden;
+				height: 100%;
+				width: 100%;
+				color:antiquewhite;
+				font-family: Arial, Helvetica, sans-serif;
 			}
-		  p {color:blue;}
-		  body {background-color: #f0f0f0;
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 20px;
-			padding: 20px;
+			a{
+				color:antiquewhite;
+			}
+			canvas {
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: -1; /* Ensure the canvas is behind other content */
+			}
+			/* Style for the content on top of the canvas */
+			.content {
+				position: relative;
+				z-index: 1;
+				color: white;
+				text-align: center;
+				padding: 20px;
 			}
 		</style>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
@@ -56,18 +73,17 @@
 			}
 		</script>
 		<body>
-
-<h1>Creative Coding Slides</h1>
-<a href="1.html">1</a><br>
-<a href="2.html">2</a><br>
-<a href="3.html">3</a><br>
-<a href="4.html">4</a><br>
-<a href="5.html">5</a><br>
-<a href="6.html">6</a><br>
-<a href="7.html">7</a><br>
-<a href="8.html">8</a><br>
-<a href="9.html">9</a><br>
-<a href="10.html">10</a><br>
+			<h1>Creative Coding Slides</h1>
+			<a href="1.html">1</a><br>
+			<a href="2.html">2</a><br>
+			<a href="3.html">3</a><br>
+			<a href="4.html">4</a><br>
+			<a href="5.html">5</a><br>
+			<a href="6.html">6</a><br>
+			<a href="7.html">7</a><br>
+			<a href="8.html">8</a><br>
+			<a href="9.html">9</a><br>
+			<a href="10.html">10</a><br>
 
 </body>
 </html>
