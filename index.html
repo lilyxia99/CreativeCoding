@@ -14,7 +14,47 @@
 			padding: 20px;
 			}
 		</style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 		</head>
+		<script>
+			let waveOffset = 0;
+	
+			function setup() {
+				// Create a full window canvas
+				createCanvas(windowWidth, windowHeight);
+			}
+	
+			function draw() {
+				// Set the background color
+				background(30, 30, 50);
+	
+				// Draw a moving wave pattern
+				noFill();
+				stroke(255);
+				strokeWeight(2);
+	
+				// Calculate wave properties
+				let waveHeight = 100;
+				let waveFrequency = 0.02;
+				let waveSpeed = 0.05;
+	
+				// Draw the wave
+				beginShape();
+				for (let x = 0; x < width; x += 10) {
+					let y = height / 2 + sin(x * waveFrequency + waveOffset) * waveHeight;
+					vertex(x, y);
+				}
+				endShape();
+	
+				// Update the wave offset to create motion
+				waveOffset += waveSpeed;
+			}
+	
+			// Adjust canvas size when the window is resized
+			function windowResized() {
+				resizeCanvas(windowWidth, windowHeight);
+			}
+		</script>
 		<body>
 
 <h1>Creative Coding Slides</h1>
