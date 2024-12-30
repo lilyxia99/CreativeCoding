@@ -86,15 +86,131 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+      <div class="slides"><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
 # Function, Syntax, Shape
-</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+
+[back to main page](https://lilyxia99.github.io/CreativeCoding/)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-ddd
-well?
+- Function 
+- Syntax 
+- Naming Conventions
+- P5js library
+- Coordinate system
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<style>
+	.red{
+		color: red;
+	}
+</style>
+```javascript
+function name(parameter1, parameter2, parameter3) {
+
+  // code to be executed
+
+}
+```
+Function **parameters** are listed inside the parentheses ( ) in the function definition.<!-- .element: class="red" -->
+
+Function **arguments** are the values received by the function when it is invoked.<!-- .element: class="red" -->
+</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Naming Convention
+Always use the same naming convention for all your code. For example:
+- Variable and function names written as camelCase
+- Global variables written in UPPERCASE (We don't, but it's quite common)
+- Constants (like PI) written in UPPERCASE
+
+[https://www.w3schools.com/js/js_conventions.asp](https://www.w3schools.com/js/js_conventions.asp)
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+P5.js is a free, open-source JavaScript library that allows users to create interactive visuals with code in a web browser. It's designed to be accessible and inclusive for artists, designers, educators, and beginners. P5.js is based on the coding language Java in terms of syntax and features, but it's actually a JavaScript library that adds functionality to JavaScript code.
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+p5. js uses a Cartesian coordinate system, where the **zero point is in the upper left corner.** The X axis is from left to right and the Y axis is from top to bottom. <!-- .element: class="red" -->
+
+<img src="https://files.catbox.moe/lpp1z4.png" alt="Catbox" style="object-fit: scale-down">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<iframe src="https://editor.p5js.org/lilyxia99/full/V1CKTUhK0"  width="600" height="600"></iframe>
+</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Shape
+[circle()](https://p5js.org/reference/p5/circle/)     [line()](https://p5js.org/reference/p5/line/)      [rect()](https://p5js.org/reference/p5/rect/)  etc
+
+<img src="https://files.catbox.moe/rwe7fp.png" alt="Catbox" style="object-fit: scale-down">
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Try your own
+
+Drawing  App
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+[simple drawing app](https://editor.p5js.org/lilyxia99/sketches/QHtIlFus4)
+<iframe src="https://editor.p5js.org/lilyxia99/full/QHtIlFus4" width=400 height=400></iframe>
+
+``` javascript
+function setup() {
+  createCanvas(400, 400);//create the canvas
+  background(220,225,225,50);//set background color
+}
+
+function draw() {
+  fill(100,100,100,50);//set my brush stroke, I set it transparent
+  noStroke();//no outline stroke for the brush
+  circle(mouseX,mouseY,20);//circle's center goes with mouse, and the diameter is always 20
+}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Do a little change
+<iframe src="https://editor.p5js.org/lilyxia99/full/OPGpIlVKc" width="400" height="500" ></iframe>
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+  background(220,225,225,50);
+}
+
+function draw() {
+  
+  fill(255,mouseX/2,mouseY,50);
+  noStroke();
+  circle(mouseX,mouseY,mouseX/10);//circle goes with mouse
+}
+```
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Submit your work by tonight 11:50PM to [Notion](https://www.notion.so/leileixia/Drawing-App-15e401da165b8002b757e5109ee4164e?pvs=4) (see tutorials on the next two pages)
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://files.catbox.moe/kdnhyj.png" alt="File->Share" style="object-fit: scale-down">
+
+<img src="https://files.catbox.moe/l08enw.png" alt="Share the full screen" style="object-fit: scale-down">
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<img src="https://files.catbox.moe/vyoedf.gif" alt="Catbox" style="object-fit: scale-down">
+</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+Special Thanks: *Weitong Sun* for Slides References
+[back to main page](https://lilyxia99.github.io/CreativeCoding/)
 </div></script></section></div>
     </div>
 
