@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
 	<link rel="stylesheet" href="css/layout.css" />
 	<link rel="stylesheet" href="plugin/customcontrols/style.css">
-	<link rel="stylesheet" href="plugin/chalkboard/style.css">
 
-	<link rel="stylesheet" href="plugin/reveal-pointer/pointer.css" />
 
 
     <script defer src="dist/fontawesome/all.min.js"></script>
@@ -86,160 +84,110 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## Why do we need 3D software
+# 1 Intro to Creative Coding and P5.js
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-by Leilei Xia
+## Syllabus
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Projects
+- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Attendance (crit attendance, sick notes)
+- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Grading
+- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->How to ask
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+# What is Creative Coding
+
+(Creative Coding) is a process, based on exploration, iteration, reflection and discovery, where code is used as the primary medium to create a wide range of media artifacts.
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Coding Library for Artists
+
+-Processing [https://processing.org/](https://processing.org/)
+
+-**p5js** [https://p5js.org/](https://p5js.org/), [https://www.openprocessing.org/](https://www.openprocessing.org/)
+
+-OpenFrameworks [https://openframeworks.cc/](https://openframeworks.cc/)
+
+-**Arduino** [https://www.arduino.cc/](https://www.arduino.cc/)
+
+** these are all open source
+
+  
+
+THERE ARE TONS MORE - [https://github.com/terkelg/awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding)
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### [Casey Reas](http://reas.com/) 
+
+
+<iframe src="https://ipfs.io/ipfs/QmQtMjj4GbKpPfhCNYEY7QM3CRiGqRcVACFXW9H8ZLDMNu" width=500 height=400></iframe>
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### How to 3D from scratch
+### [Peter Burr](https://www.peterburr.org/biography.php)
+
+<img src="https://www.peterburr.org/2013_images/full02.gif" alt="" style="object-fit: scale-down">
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="https://files.catbox.moe/0olbwe.jpg" alt="Catbox" style="object-fit: scale-down">
-</div>
+### [Tim Rodenbröker](https://vimeo.com/timrodenbroeker)
 
-<aside class="notes"><p>Imagine you want to create a 3D object from scratch in your</p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="https://files.catbox.moe/jzjmrp.jpg" alt="Catbox" style="object-fit: scale-down">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<iframe src="https://editor.p5js.org/lilyxia99/full/1EjonHSvD" height="400"></iframe>
-
-[3D computer Art--basic box by lilyxia99 -p5.js Web Editor](https://editor.p5js.org/lilyxia99/sketches/1EjonHSvD)
-</div>
-
-<aside class="notes"><p>but then how to scale the object?</p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<iframe src="https://editor.p5js.org/lilyxia99/full/V1CKTUhK0"  width="400" height="600"></iframe>
-
-[3D computer Art Translate by lilyxia99 -p5.js Web Editor](https://editor.p5js.org/lilyxia99/sketches/V1CKTUhK0)
-</div>
-
-<aside class="notes"><p>but then how to detailed change each of the coordinates? imagine you have so many points and so many faces, how do you keep track of each of them?</p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="https://files.catbox.moe/mnd34r.png" alt="Catbox" style="object-fit: scale-down">
-
-
-[3Blue1Brown - Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra)
-</div>
-
-<aside class="notes"><p>the view changing we didn&#39;t really talk about, but it&#39;s actually more complicated, using linear transformation. 
-How many of you have learnt linear algebra?
-don&#39;t worry, we will cover some in the future.</p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="https://files.catbox.moe/c3opfg.png" alt="Catbox" style="object-fit: scale-down">
-</div>
-
-<aside class="notes"><p>That&#39;s why you need a visualized interface to deal with all these.
-Therefore for all 3D softwares and interfaces, its fundamental logic is math and programming logic. 
-although it looks so different, but they are the same logic.</p>
-</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## What is Maya
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<img src="https://www.iamag.co/wp-content/uploads/2018/10/cover-renderman.jpg" alt="" style="object-fit: scale-down">
-</div>
-
-<aside class="notes"><p>it&#39;s an industry standard 3D software used by mainstream animation studios such as Pixar, Dreamworks and so on</p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-Pros:
-- &shy;<!-- .element: class="fragment" data-fragment-index="1" -->Node Based -- clear data flow
-- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->Industry Standards
-- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->Extremely Powerful
-- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->Compatible to Unreal
-- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->Powerful rendering like Arnold
-
-Cons:
-- &shy;<!-- .element: class="fragment" data-fragment-index="6" -->Difficult to learn
-- &shy;<!-- .element: class="fragment" data-fragment-index="7" -->interface confusing
-- &shy;<!-- .element: class="fragment" data-fragment-index="8" -->node system can't save or might crash next time opening
-- &shy;<!-- .element: class="fragment" data-fragment-index="9" -->scripting language MEL (not used elsewhere, though now can use python)
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/305336392?h=db143b0506" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
 </div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-## How to learn a 3D software
+###   [KATE HOLLENBACH](http://www.katehollenbach.com/)
+
+<img src="Pasted image 20250112153136.png" alt="" style="object-fit: scale-down">
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 0. Shortcut
-Always! Try to find out the shortcut. 
-<img src="https://files.catbox.moe/e73tmt.png" alt="Catbox" style="object-fit: scale-down">
+### [Qianqian Ye](https://qianqian-ye.com/index.html)
+
+<img src="Screenshot 2025-01-12 at 3.35.26 PM.png" alt="" style="object-fit: scale-down">
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 1. Navigation
-Pan, Rotate, Zoom
+### [Lauren Lee McCarthy](https://lauren-mccarthy.com/Recent-Work)
+(The creator of P5.js)
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/488636450?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Vibe Check"></iframe></div><script src="https://player.vimeo.com/api/player.js">__SCRIPT_END__
+</div></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-<img src="https://files.catbox.moe/c4253g.png" alt="Catbox" style="object-fit: scale-down">
+### More Examples
 
+Analívia Cordeiro [https://vimeo.com/46551344](https://vimeo.com/46551344)
 
-Alt/Option + Left/Middle/Right Mouse
+Amika Joshi (Computational Mama)  [https://computationalmama.xyz/](https://computationalmama.xyz/)
+
+Antonio Roberts (Hellocatfood) [https://www.hellocatfood.com/](https://www.hellocatfood.com/) 
+
+[https://www.wix.com/studio/blog/creative-coding](https://www.wix.com/studio/blog/creative-coding)
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### What is P5.js
+
+p5. js is a JavaScript library for creative coding. A collection of pre-written code, it provides us with tools that simplify the process of creating interactive visuals with code in the web browser.
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 2. Windows
-
-<img src="https://files.catbox.moe/idwkuk.png" alt="Catbox" style="object-fit: scale-down">
-</div>
-
-<aside class="notes"><p>Make sure you know some of the key panels name, so that you can always find them back when you lose them. Usually in menubar --&gt; Windows</p>
-</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### 3. Object, Face, Line, Vertex
-F7, F8, F9, F10
-
-<img src="https://files.catbox.moe/ss5cvz.png" alt="Catbox" style="object-fit: scale-down">
+### What makes a web page?
+- HTML
+- CSS
+- Script ← this is where p5js sketches can live; the online editor also allows will create the html to make a webpage or generate code to embed
 </div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
 <div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
 
-### 4. Translate, Rotate, Scale
-W, E, R
+**P5js Web Editor**
 
-<img src="https://files.catbox.moe/682qkk.png" alt="Catbox" style="object-fit: scale-down">
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### 5. Save & Export & Other Operations
-Always! Always Save!
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-### 6.*Maya Specific*
-_Delete All your Histories befroe closing!_
-or your file might crush after the next opening...
-
-<img src="https://files.catbox.moe/kya2c8.png" alt="Catbox" style="object-fit: scale-down">
-</div></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-## Take Good Use Of The Documentation
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-<iframe src="https://help.autodesk.com/view/MAYAUL/2024/ENU/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
-</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
-<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
-
-Autodesk official documentation![Catbox](https://files.catbox.moe/iky9w3.png)
+[**https://editor.p5js.org/**](https://editor.p5js.org/)
 </div></script></section></section></div>
     </div>
 
@@ -253,11 +201,7 @@ Autodesk official documentation![Catbox](https://files.catbox.moe/iky9w3.png)
 	<script src="plugin/mermaid/mermaid.js"></script>
 	<script src="plugin/chart/chart.min.js"></script>
 	<script src="plugin/chart/plugin.js"></script>
-	<script src="plugin/menu/menu.js"></script>
 	<script src="plugin/customcontrols/plugin.js"></script>
-	<script src="plugin/chalkboard/plugin.js"></script>
-	<script src="plugin/reveal-pointer/pointer.js"></script>
-	<script src="plugin/elapsed-time-bar/elapsed-time-bar.js"></script>
 
     <script>
       function extend() {
@@ -313,10 +257,6 @@ Autodesk official documentation![Catbox](https://files.catbox.moe/iky9w3.png)
 		  RevealMermaid,
 		  RevealChart,
 		  RevealCustomControls,
-		  RevealMenu,
-	      RevealPointer,
-		  RevealChalkboard, 
-		  ElapsedTimeBar
         ],
 
 
@@ -339,30 +279,14 @@ Autodesk official documentation![Catbox](https://files.catbox.moe/iky9w3.png)
 
 		customcontrols: {
 			controls: [
-				{id: 'toggle-overview',
-				title: 'Toggle overview (O)',
-				icon: '<i class="fa fa-th"></i>',
-				action: 'Reveal.toggleOverview();'
-				},
-				{ icon: '<i class="fa fa-pen-square"></i>',
-				title: 'Toggle chalkboard (B)',
-				action: 'RevealChalkboard.toggleChalkboard();'
-				},
-				{ icon: '<i class="fa fa-pen"></i>',
-				title: 'Toggle notes canvas (C)',
-				action: 'RevealChalkboard.toggleNotesCanvas();'
-				},
 			]
 		},
-		menu: {
-			loadIcons: false
-		}
       };
 
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"default"}, queryOptions);
     </script>
 
     <script>

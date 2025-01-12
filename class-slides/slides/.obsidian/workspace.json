@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "30d6719127069c07",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca21ed332548b7a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e83830c3f0c8d5db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "f0e8d386113351fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is P5.js.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is P5.js"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e6a952bbbf1314b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b2456a24f1e7037",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7ae9ee0dc2ad242",
+    "type": "split",
+    "children": [
+      {
+        "id": "8d1f91c93e12e2a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34708b0203eab55b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "54ede9ba4fc03880",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1fe1d1b53ff36232",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8be7562aad32a487",
+    "type": "split",
+    "children": [
+      {
+        "id": "b86dec574c55627f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da7befe1e5851fbb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "What is P5.js.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for What is P5.js"
+            }
+          },
+          {
+            "id": "2bc0d48b8c019f83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "What is P5.js.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from What is P5.js"
+            }
+          },
+          {
+            "id": "7b28455e911fdb96",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a130fed449743d7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "What is P5.js.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of What is P5.js"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
+    }
+  },
+  "active": "1b2456a24f1e7037",
+  "lastOpenFiles": [
+    "export/What is P5.js/1.html",
+    "export/What is P5.js/Screenshot 2025-01-12 at 3.35.26 PM.png",
+    "export/What is P5.js/Pasted image 20250112153136.png",
+    "export/What is P5.js/plugin/chalkboard/README.md",
+    "export/What is P5.js/plugin/chalkboard/_style.css",
+    "export/What is P5.js/plugin/chalkboard/img/blackboard.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-black.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-blue.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-green.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-orange.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-purple.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-red.png",
+    "export/What is P5.js/plugin/chalkboard/img/boardmarker-yellow.png",
+    "export/What is P5.js/plugin/chalkboard/img",
+    "export/What is P5.js/plugin/chalkboard/style.css",
+    "export/What is P5.js/plugin/chalkboard/plugin.js",
+    "export/What is P5.js/plugin/chalkboard/plugin (copy).js",
+    "export/What is P5.js/plugin/chalkboard",
+    "export/What is P5.js/plugin/chart/plugin.js",
+    "export/What is P5.js/plugin/chart/chart.min.js",
+    "export/What is P5.js/plugin/chart/README.md",
+    "export/What is P5.js/plugin/chart",
+    "export/What is P5.js/plugin/customcontrols/style.css",
+    "export/What is P5.js/plugin/customcontrols/README.md",
+    "export/What is P5.js/plugin/menu/README.md",
+    "export/What is P5.js/plugin/menu/CONTRIBUTING.md",
+    "Welcome.md",
+    "What is P5.js.md"
+  ]
+}
