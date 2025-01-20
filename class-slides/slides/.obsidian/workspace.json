@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "What is P5.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "What is P5.js"
+            }
+          },
+          {
+            "id": "c5609a96dd3d246b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Indentation, Comments, more Exercises.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Indentation, Comments, more Exercises"
             }
           },
           {
@@ -39,11 +53,11 @@
         "currentTab": 1
       },
       {
-        "id": "e6a952bbbf1314b1",
+        "id": "c14db03f8ec8e743",
         "type": "tabs",
         "children": [
           {
-            "id": "1b2456a24f1e7037",
+            "id": "3a3f2d471dbfe153",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
@@ -197,35 +211,47 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1b2456a24f1e7037",
+  "active": "3a3f2d471dbfe153",
   "lastOpenFiles": [
-    "export/What is P5.js/1.html",
-    "export/What is P5.js/Screenshot 2025-01-12 at 3.35.26 PM.png",
-    "export/What is P5.js/Pasted image 20250112153136.png",
+    "export/Indentation, Comments, more Exercises/4.html",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/README.md",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/_style.css",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/blackboard.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-black.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-blue.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-green.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-orange.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-purple.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-red.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/boardmarker-yellow.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/chalk-blue.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img/chalk-green.png",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/img",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/style.css",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/plugin.js",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard/plugin (copy).js",
+    "export/Indentation, Comments, more Exercises/plugin/chalkboard",
+    "export/Indentation, Comments, more Exercises/plugin/chart/plugin.js",
+    "export/Indentation, Comments, more Exercises/plugin/chart/chart.min.js",
+    "export/Indentation, Comments, more Exercises/plugin/chart/README.md",
+    "export/Indentation, Comments, more Exercises/plugin/chart",
+    "export/Indentation, Comments, more Exercises/plugin/customcontrols/README.md",
+    "export/Indentation, Comments, more Exercises/plugin/customcontrols/style.css",
+    "export/Indentation, Comments, more Exercises/plugin/menu/CONTRIBUTING.md",
+    "export/Indentation, Comments, more Exercises/plugin/menu/README.md",
+    "What is P5.js.md",
+    "Indentation, Comments, more Exercises.md",
+    "Welcome.md",
+    "3D.md",
+    "export/3D/plugin/chalkboard/README.md",
+    "export/3D/plugin/chart/README.md",
+    "export/3D/plugin/customcontrols/README.md",
+    "export/3D/plugin/menu/CONTRIBUTING.md",
+    "export/3D/plugin/menu/README.md",
     "export/What is P5.js/plugin/chalkboard/README.md",
-    "export/What is P5.js/plugin/chalkboard/_style.css",
-    "export/What is P5.js/plugin/chalkboard/img/blackboard.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-black.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-blue.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-green.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-orange.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-purple.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-red.png",
-    "export/What is P5.js/plugin/chalkboard/img/boardmarker-yellow.png",
-    "export/What is P5.js/plugin/chalkboard/img",
-    "export/What is P5.js/plugin/chalkboard/style.css",
-    "export/What is P5.js/plugin/chalkboard/plugin.js",
-    "export/What is P5.js/plugin/chalkboard/plugin (copy).js",
-    "export/What is P5.js/plugin/chalkboard",
-    "export/What is P5.js/plugin/chart/plugin.js",
-    "export/What is P5.js/plugin/chart/chart.min.js",
     "export/What is P5.js/plugin/chart/README.md",
-    "export/What is P5.js/plugin/chart",
-    "export/What is P5.js/plugin/customcontrols/style.css",
     "export/What is P5.js/plugin/customcontrols/README.md",
     "export/What is P5.js/plugin/menu/README.md",
-    "export/What is P5.js/plugin/menu/CONTRIBUTING.md",
-    "Welcome.md",
-    "What is P5.js.md"
+    "export/What is P5.js/plugin/menu/CONTRIBUTING.md"
   ]
 }
