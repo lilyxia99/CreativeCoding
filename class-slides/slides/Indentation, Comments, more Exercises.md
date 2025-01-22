@@ -2,7 +2,7 @@
 
 [Back to Main Page](https://lilyxia99.github.io/CreativeCoding/)
 
-30 minutes finish up the sketch you had and post it on Notion
+ finish up the 2D sketch you had and post it on Notion
 
 --
 
