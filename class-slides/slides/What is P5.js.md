@@ -51,12 +51,12 @@ THERE ARE TONS MORE - [https://github.com/terkelg/awesome-creative-coding](https
 
 ###   [KATE HOLLENBACH](http://www.katehollenbach.com/)
 
-![[Pasted image 20250112153136.png]]
+![[Untitled/Pasted image 20250112153136.png]]
 
 --
 ### [Qianqian Ye](https://qianqian-ye.com/index.html)
 
-![[Screenshot 2025-01-12 at 3.35.26 PM.png]]
+![[Untitled/Screenshot 2025-01-12 at 3.35.26 PM.png]]
 
 --
 

@@ -25,13 +25,18 @@ Assignment: before next class, go back to your draw then code
 
 ---
 
-## Random
+## Random(any number)
 https://editor.p5js.org/lilyxia99/sketches/NKBfPhHzB
 <iframe src="https://editor.p5js.org/lilyxia99/full/NKBfPhHzB" width=500 height=500></iframe>
 
 --
 
-### Sin()
+### Sin(any number)
+e.g.
+``` javascript
+circle(200,200,sin(frameCount/10))*100);
+}
+```
 https://editor.p5js.org/lilyxia99/sketches/Byew6-gxm
 
 ---
