@@ -9,27 +9,6 @@
 Turn to the person next to you and explain your code to them
 
 
---
-
-![Catbox](https://files.catbox.moe/1nze3c.png)
-
---
-
-Use
-```
- //
-```
-Or 
-```
-/*   */
-```
-
-Assignment: before next class, go back to your draw then code
-
-+ Add code comments
-+ Add ;
-+ Tidy your code
-
 ---
 
 ## Random(any number)
@@ -72,6 +51,11 @@ Always use the same naming convention for all your code. For example:
 Variable and function names written as **camelCase**
 
 https://editor.p5js.org/lilyxia99/sketches/5Zok1O__9
+
+---
+Global Variable 
+vs
+Local Variable
 
 
 ---

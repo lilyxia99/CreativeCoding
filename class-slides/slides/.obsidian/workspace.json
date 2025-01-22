@@ -6,6 +6,7 @@
       {
         "id": "ca21ed332548b7a7",
         "type": "tabs",
+        "dimension": 56.25,
         "children": [
           {
             "id": "e83830c3f0c8d5db",
@@ -69,6 +70,7 @@
       {
         "id": "ba2ce4fb702ac629",
         "type": "tabs",
+        "dimension": 43.75,
         "children": [
           {
             "id": "b209268ba3feb8b2",
@@ -245,14 +247,14 @@
     "export/Indentation, Comments, more Exercises/plugin/chalkboard/plugin (copy).js",
     "export/Indentation, Comments, more Exercises/plugin/chalkboard/img",
     "export/Indentation, Comments, more Exercises/plugin/chalkboard",
-    "export/Indentation, Comments, more Exercises/plugin/chart/README.md",
     "export/Indentation, Comments, more Exercises/plugin/chart/plugin.js",
     "export/Indentation, Comments, more Exercises/plugin/chart/chart.min.js",
+    "export/Indentation, Comments, more Exercises/plugin/chart/README.md",
     "export/Indentation, Comments, more Exercises/plugin/chart",
-    "export/Indentation, Comments, more Exercises/plugin/customcontrols/README.md",
     "export/Indentation, Comments, more Exercises/plugin/customcontrols/style.css",
-    "export/Indentation, Comments, more Exercises/plugin/menu/CONTRIBUTING.md",
+    "export/Indentation, Comments, more Exercises/plugin/customcontrols/README.md",
     "export/Indentation, Comments, more Exercises/plugin/menu/README.md",
+    "export/Indentation, Comments, more Exercises/plugin/menu/CONTRIBUTING.md",
     "Untitled.md",
     "Indentation, Comments, more Exercises.md",
     "What is P5.js.md",
